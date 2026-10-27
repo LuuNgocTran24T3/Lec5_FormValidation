@@ -1,4 +1,8 @@
 package com.example.lec5_formvalidation.model
 
-class NguoiDung {
-}
+data class NguoiDung(
+    val hoTen: String,
+    val email: String,
+    val matKhau: String,
+    val soDienThoai: String
+)
